@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # robosys2024
 
 ロボットシステム学
@@ -21,3 +22,6 @@ $ python3 kadai.py --input "hello"
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - © 2024 Ryosuke Kambara
+=======
+# robosys2024
+>>>>>>> a905482b7a5a18fcd98fd72bca6b5b1c58ae6d1c
