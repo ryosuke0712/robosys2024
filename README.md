@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # robosys2024
 
 ロボットシステム学
@@ -16,6 +15,7 @@
 git clone https://github.com/ryosuke0712/robosys2024.git
 
 ##使い方
+
 実行方法の例
 $ python3 kadai.py --input "hello"
 大文字に変換された文字列: HELLO
