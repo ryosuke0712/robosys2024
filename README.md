@@ -3,6 +3,7 @@
 ロボットシステム学
 
 #プロジェクトタイトル
+
 カスタム文字列  
 
 ##概要
@@ -14,12 +15,19 @@
 リポジトリをクローン
 git clone https://github.com/ryosuke0712/robosys2024.git
 
+ディレクトリに移動
+cd robosys2024
+
 ##使い方
 
 実行方法の例
-$ python3 kadai.py --input "hello"
-大文字に変換された文字列: HELLO
-逆さ読み:　OLLEH
+$ python3 case_and_color.py "HelloWorld"
+変換された文字列: hELLOwORLD
+逆さ読み: dlroWolleH
+
+実行失敗例
+$ python3 case_and_color.py
+文字列を引数として指定してください
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - © 2024 Ryosuke Kambara
