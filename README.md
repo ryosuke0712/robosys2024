@@ -11,20 +11,28 @@
 
 主な機能は文字列の大文字・小文字変換、逆さ読み表示、ランダムな色付けです
 
-##インストール方法
-リポジトリをクローン
-git clone https://github.com/ryosuke0712/robosys2024.git
+##必要なソフトウエア
+Python(テスト済みバージョン:3.7~3.11)
 
-ディレクトリに移動
+##インストール方法
+git clone https://github.com/ryosuke0712/robosys2024.git
+リポジトリ
 cd robosys2024
 
-##使い方
+##実行
+python3 case_and_color.py　<文字列>
 
-実行方法の例
-$ python3 case_and_color.py "HelloWorld"  変換された文字列: hELLOwORLD  逆さ読み: dlroWolleH
+成功例
+python3 case_and_color.py "HelloWorld" 
+変換された文字列: hELLOwORLD 
+逆さ読み: dlroWolleH
 
-実行失敗例
-$ python3 case_and_color.py  文字列を引数として指定してください
+失敗例
+python3 case_and_color.py
+文字列を引数として指定してください
+
+##テスト環境
+ubuntu20.04
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - © 2024 Ryosuke Kambara
