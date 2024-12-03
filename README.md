@@ -22,12 +22,12 @@ cd robosys2024
 
 実行方法の例
 $ python3 case_and_color.py "HelloWorld"
-変換された文字列: hELLOwORLD
-逆さ読み: dlroWolleH
+  変換された文字列: hELLOwORLD
+  逆さ読み: dlroWolleH
 
 実行失敗例
 $ python3 case_and_color.py
-文字列を引数として指定してください
+  文字列を引数として指定してください
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - © 2024 Ryosuke Kambara
